@@ -10,10 +10,7 @@
 
   body {
     overflow-x: hidden;
-    background:
-      radial-gradient(circle at top, rgb(124 224 167 / 0.16), transparent 34%),
-      radial-gradient(circle at 82% 18%, rgb(240 193 93 / 0.12), transparent 22%),
-      linear-gradient(180deg, #071518 0%, #040d10 46%, #081417 100%);
+    background: #071518;
     color: #f3fcfa;
     font-family: Montserrat, sans-serif;
   }
@@ -54,15 +51,13 @@
 
 @layer components {
   .glass-panel {
-    background: linear-gradient(180deg, rgb(13 35 40 / 0.8), rgb(7 19 21 / 0.94));
+    background: #0d2328;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
   }
 
   .site-navbar {
-    background:
-      linear-gradient(to bottom, rgb(20 50 57 / 0.97), rgb(4 13 16 / 0.86)),
-      rgb(4 13 16 / 0.78);
+    background: #071518;
     box-shadow: 0 0 40px rgb(124 224 167 / 0.12);
     transition:
       background-color 200ms ease,
@@ -73,9 +68,7 @@
   }
 
   .site-navbar.is-scrolled {
-    background:
-      linear-gradient(to bottom, rgb(20 50 57 / 0.99), rgb(4 13 16 / 0.95)),
-      rgb(4 13 16 / 0.96);
+    background: #071518;
     box-shadow: 0 0 48px rgb(124 224 167 / 0.18);
   }
 
@@ -115,16 +108,12 @@
   }
 
   .hero-grid {
-    background-image:
-      linear-gradient(rgb(255 255 255 / 0.04) 1px, transparent 1px),
-      linear-gradient(90deg, rgb(255 255 255 / 0.04) 1px, transparent 1px);
+    background-image: none;
     background-size: 48px 48px;
   }
 
   .radial-ring {
-    background:
-      radial-gradient(circle at center, rgb(124 224 167 / 0.32), transparent 52%),
-      radial-gradient(circle at center, rgb(240 193 93 / 0.12), transparent 68%);
+    background: transparent;
   }
 
   .store-badge {
@@ -153,3 +142,28 @@
     word-break: break-word;
   }
 }
+
+/* Editorial layout inspired by Minty Goals, with Aphidex's original palette. */
+body { background:#071518; font-family:Montserrat,system-ui,sans-serif; }
+.site-navbar,.site-navbar.is-scrolled { background:#071518; box-shadow:none; border-bottom:1px solid #244047; }
+.glass-panel,.info-card { background:#0d2328; box-shadow:none; backdrop-filter:none; }
+.info-card { border-radius:18px; }
+.eyebrow,.signal-chip { letter-spacing:.07em; text-transform:none; }
+.eyebrow { background:transparent; border:0; padding:0; }
+.section-shell { max-width:1160px; }
+.section-title { font-size:clamp(1.9rem,4vw,3rem); line-height:1.12; }
+#home h1 { font-size:clamp(3rem,7vw,5rem); line-height:1.02; }
+#home .section-shell { padding-bottom:3rem; }
+#home .store-badge { max-width:170px; border:0; padding:0; background:transparent; }
+.hero-product { background:#102e33; border:1px solid #244047; border-radius:24px; padding:clamp(1rem,3vw,2rem); }
+.hero-phone { width:min(100%,270px); border:6px solid #244047; border-radius:26px; }
+.phone-frame { box-shadow:0 12px 28px rgb(0 0 0 / .18); }
+#screenshots .phone-frame { max-width:300px; margin-inline:auto; }
+#metrics { padding-block:2rem; border-block:1px solid #244047; background:#0a1d21; }
+#metrics .info-card { background:transparent; border:0; padding:1rem; }
+#metrics .metric-value { color:#7ce0a7; font-size:clamp(2rem,4vw,3rem); }
+#features,#platforms,#screenshots,#languages { padding-block:clamp(3rem,7vw,6rem); }
+.release-note { background:#102e33; border:1px solid #35544d; border-radius:20px; padding:clamp(1.5rem,4vw,3rem); }
+.review-card blockquote { font-size:1rem; line-height:1.7; }
+.review-source { color:#7ce0a7; text-decoration:underline; text-underline-offset:3px; }
+@media(max-width:640px){#home .section-shell{gap:2rem}#home .store-badge{max-width:145px}.hero-product{margin-inline:auto;width:100%}#metrics .info-card{border-bottom:1px solid #244047}#metrics .info-card:last-child{border:0}}
