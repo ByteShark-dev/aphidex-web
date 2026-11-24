@@ -2,7 +2,7 @@ export const defaultLocale = 'es';
 export const supportedLocales = ['es', 'en'];
 
 // Change this single value when the site moves to its custom domain.
-const publicSiteUrl = 'https://byteshark-dev.github.io/aphidex-web/';
+const publicSiteUrl = 'https://byteshark.app/aphidex/';
 
 const screenshotFiles = [
   'IMG_20260428_231511.jpg',
@@ -445,6 +445,180 @@ const localizedContent = {
   },
 };
 
+// Public storefront excerpts, dated November 2026. Keep original language and source links.
+const communityReviews = [
+  { quote: 'very useful for grounded players instead of having to pull out the peep.r', author: 'Spencer Hand', store: 'Google Play', url: 'https://play.google.com/store/apps/details?id=com.byteshark.aphidex&hl=en_US' },
+  { quote: 'I love how it shows the creature weaknesses.', author: 'Grounded Two nerd', store: 'App Store · US', url: 'https://apps.apple.com/us/app/aphidex-grounded-2-guide/id6766727089' },
+  { quote: 'it 100% helps you where to attack at & what to use', author: 'ToniestBulb1651', store: 'App Store · US', url: 'https://apps.apple.com/us/app/aphidex-grounded-2-guide/id6766727089' },
+];
+const landingRefresh = {
+  "es": {
+    "hero": {
+      "eyebrow": "GUÍA NO OFICIAL · GROUNDED Y GROUNDED 2",
+      "description": "Explora más. Combate mejor.",
+      "subtext": "Mapas, criaturas, equipo y recomendaciones de combate en una sola guía. Encuentra lo que necesitas sin salir de tu partida.",
+      "storeNote": "Gratis para Android y iOS · Más de 3,400 descargas en Android",
+      "badges": [
+        "Grounded 1 y 2",
+        "ES / EN / RU",
+        "Versión 1.4.0 en iOS"
+      ],
+      "sideTitle": "Tu guía de bolsillo",
+      "sideBody": "Consulta información detallada antes de tu próximo combate."
+    },
+    "features": {
+      "title": "Todo lo que necesitas para sobrevivir",
+      "intro": "De la exploración a la preparación de cada combate, con herramientas diseñadas para consultar rápidamente.",
+      "items": [
+        [
+          "map",
+          "Mapa interactivo",
+          "Explora Surface y Abyss en Grounded 2 y localiza criaturas, equipo y puntos de interés."
+        ],
+        [
+          "pest_control",
+          "Bestiario",
+          "Consulta ataques, puntos débiles, resistencias, inmunidades, botín y condiciones de aparición."
+        ],
+        [
+          "swords",
+          "Recomendador de armas",
+          "En Grounded 2, compara armas considerando daño, debilidades, munición y mejoras elementales."
+        ],
+        [
+          "shield",
+          "Biblioteca de equipo",
+          "Armas, armaduras, amuletos, flechas, efectos, materiales y métodos de obtención."
+        ],
+        [
+          "security",
+          "Defensas y eventos",
+          "Prepara las defensas MIX.R e Ice Sickles con rondas, enemigos y recompensas."
+        ],
+        [
+          "emoji_events",
+          "Progreso personal",
+          "Registra tarjetas doradas, favoritos y eliminaciones, y comparte tu perfil."
+        ]
+      ]
+    },
+    "metrics": {
+      "title": "Una comunidad que crece",
+      "intro": "Descargas acumuladas de Android reportadas por ByteShark y valoración pública de App Store (EE. UU.), noviembre de 2026.",
+      "items": [
+        {
+          "value": "3,400+",
+          "label": "Descargas en Android",
+          "body": "Más de 3,400 descargas acumuladas."
+        },
+        {
+          "value": "4.7/5",
+          "label": "App Store · EE. UU.",
+          "body": "14 valoraciones en la ficha consultada."
+        },
+        {
+          "value": "3",
+          "label": "Idiomas",
+          "body": "Español, inglés y ruso en la app."
+        }
+      ]
+    },
+    "reviewTitle": "Lo que dicen los jugadores",
+    "reviewIntro": "Extractos de reseñas públicas en su idioma original.",
+    "screenshotsIntro": "Una vista de la interfaz de Aphidex y sus fichas de consulta.",
+    "updateTitle": "Novedades de Aphidex 1.4.0",
+    "updateBody": "La versión publicada en App Store incorpora contenido de Grounded 2 Release 0.6: Skritch, termitas, nuevos jefes y variantes, recomendaciones de armas y un códice de efectos ampliado."
+  },
+  "en": {
+    "hero": {
+      "eyebrow": "UNOFFICIAL GUIDE · GROUNDED & GROUNDED 2",
+      "description": "Explore more. Fight smarter.",
+      "subtext": "Maps, creatures, gear and combat recommendations in one guide. Find what you need without interrupting your game.",
+      "storeNote": "Free on Android and iOS · 3,400+ Android downloads",
+      "badges": [
+        "Grounded 1 & 2",
+        "ES / EN / RU",
+        "Version 1.4.0 on iOS"
+      ],
+      "sideTitle": "Your pocket guide",
+      "sideBody": "Check detailed information before your next encounter."
+    },
+    "features": {
+      "title": "Everything you need to survive",
+      "intro": "From exploring the world to preparing for combat, with tools designed for quick reference.",
+      "items": [
+        [
+          "map",
+          "Interactive map",
+          "Explore Grounded 2 Surface and Abyss and locate creatures, gear and points of interest."
+        ],
+        [
+          "pest_control",
+          "Creature guide",
+          "Browse attacks, weak points, resistances, immunities, loot and spawn conditions."
+        ],
+        [
+          "swords",
+          "Weapon recommendations",
+          "Compare Grounded 2 weapons using damage, weaknesses, ammunition and elemental upgrades."
+        ],
+        [
+          "shield",
+          "Gear library",
+          "Weapons, armor, trinkets, arrows, effects, materials and acquisition details."
+        ],
+        [
+          "security",
+          "Defenses and events",
+          "Prepare for MIX.R and Ice Sickles with waves, enemies and rewards."
+        ],
+        [
+          "emoji_events",
+          "Player progress",
+          "Track gold cards, favorites and kills, and share your profile."
+        ]
+      ]
+    },
+    "metrics": {
+      "title": "A growing community",
+      "intro": "Cumulative Android downloads reported by ByteShark and public US App Store rating, November 2026.",
+      "items": [
+        {
+          "value": "3,400+",
+          "label": "Android downloads",
+          "body": "Over 3,400 cumulative downloads."
+        },
+        {
+          "value": "4.7/5",
+          "label": "US App Store",
+          "body": "14 ratings in the storefront consulted."
+        },
+        {
+          "value": "3",
+          "label": "Languages",
+          "body": "Spanish, English and Russian in the app."
+        }
+      ]
+    },
+    "reviewTitle": "What players say",
+    "reviewIntro": "Excerpts from public reviews in their original language.",
+    "screenshotsIntro": "A look at Aphidex and its reference screens.",
+    "updateTitle": "What's new in Aphidex 1.4.0",
+    "updateBody": "The App Store release includes Grounded 2 Release 0.6 content: Skritch, termites, new bosses and variants, weapon recommendations and an expanded effects codex."
+  }
+};
+for (const locale of supportedLocales) {
+  const home = localizedContent[locale].home;
+  const refresh = landingRefresh[locale];
+  Object.assign(home.hero, refresh.hero);
+  home.features = { ...refresh.features, items: refresh.features.items.map(([icon,title,body]) => ({icon,title,body})) };
+  home.metrics = refresh.metrics;
+  home.screenshots.intro = refresh.screenshotsIntro;
+  home.community = { title: refresh.reviewTitle, intro: refresh.reviewIntro, items: communityReviews };
+  home.update = { title: refresh.updateTitle, body: refresh.updateBody };
+  home.seo.description = refresh.hero.subtext;
+}
+
 function buildPaths(pageKey) {
   const isHome = pageKey === 'home';
   const sectionPrefix = isHome ? '#' : '../#';
@@ -486,7 +660,7 @@ export const siteConfig = {
     name: 'Aphidex',
     owner: 'ByteShark',
     parentName: 'ByteShark',
-    parentUrl: 'https://byteshark-dev.github.io/',
+    parentUrl: 'https://byteshark.app/',
     slogan: 'Companion app for Grounded and Grounded 2',
   },
   seo: {
@@ -510,12 +684,12 @@ export const siteConfig = {
   links: {
     googlePlay: 'https://play.google.com/store/apps/details?id=com.byteshark.aphidex&hl=es_419',
     appStore: 'https://apps.apple.com/mx/app/aphidex/id6766727089',
-    byteSharkHome: 'https://byteshark-dev.github.io/',
+    byteSharkHome: 'https://byteshark.app/',
     email: 'mailto:byteshark098@gmail.com',
     emailAddress: 'byteshark098@gmail.com',
   },
   socialLinks: [
-    'https://byteshark-dev.github.io/',
+    'https://byteshark.app/',
     'https://play.google.com/store/apps/details?id=com.byteshark.aphidex&hl=es_419',
     'https://apps.apple.com/mx/app/aphidex/id6766727089',
   ],
