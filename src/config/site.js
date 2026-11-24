@@ -685,8 +685,8 @@ export const siteConfig = {
     googlePlay: 'https://play.google.com/store/apps/details?id=com.byteshark.aphidex&hl=es_419',
     appStore: 'https://apps.apple.com/mx/app/aphidex/id6766727089',
     byteSharkHome: 'https://byteshark.app/',
-    email: 'mailto:byteshark098@gmail.com',
-    emailAddress: 'byteshark098@gmail.com',
+    email: 'mailto:soporte@byteshark.app',
+    emailAddress: 'soporte@byteshark.app',
   },
   socialLinks: [
     'https://byteshark.app/',
